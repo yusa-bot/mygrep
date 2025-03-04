@@ -1,0 +1,8 @@
+mygrep
+
+*.o
+
+.DS_Store
+Thumbs.db
+
+memo
