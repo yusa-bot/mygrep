@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 void search_file(const char *filename, const char *keyword)
 {
@@ -27,6 +28,6 @@ int main(int argc, char *argv[])
         printf("使い方： mygrep <検索ワード> <ファイル名>\n");
         return 1;
     }
-    serach_file(argv[2], argv[1]);
+    search_file(argv[2], argv[1]);
     return 0;
 }

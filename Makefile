@@ -8,7 +8,7 @@ $(NAME): $(OBJS)
 	$(CC) $(CFLAGS) -o $(NAME) $(OBJS)
 
 %.o: %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(CFLAGS) -c mygrep.c -o mygrep.o
 
 clean:
 	rm -f $(OBJS)
