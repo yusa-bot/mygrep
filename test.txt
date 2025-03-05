@@ -1,0 +1,4 @@
+hello
+error: something failed
+success
+error: missing file
