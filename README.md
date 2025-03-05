@@ -68,4 +68,4 @@ mygrep/
 ```
 
 作成者: yusa-bot
-[GitHub](https://github.com/yuas-bot)
+[GitHub](https://github.com/yusa-bot)
